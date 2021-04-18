@@ -12,6 +12,7 @@ fragment PetsFields on Pet {
   name
   type
   img
+  vaccinated @client
   owner {
     id
     age @client
