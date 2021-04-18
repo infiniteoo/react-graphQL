@@ -12,6 +12,10 @@ const ALL_PETS = gql`
       name
       type
       img
+      owner {
+        id
+        age @client
+      }
     }
   }
 `
@@ -68,7 +72,7 @@ export default function Pets() {
     return <p>Error!</p>
   }
 
-  console.log("data", data)
+  console.log("data", data.pets[0])
 
   if (modal) {
     return <NewPetModal onSubmit={onSubmit} onCancel={() => setModal(false)} />;
