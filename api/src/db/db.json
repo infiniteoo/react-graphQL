@@ -35,6 +35,13 @@
       "name": "Rambo",
       "type": "DOG",
       "user": "jBWMVGjm50l6LGwepDoty"
+    },
+    {
+      "id": "92Xh3K9ExsJRNg_j4WHkG",
+      "createdAt": 1618723895984,
+      "name": "Frankie",
+      "type": "CAT",
+      "user": "jBWMVGjm50l6LGwepDoty"
     }
   ]
 }
