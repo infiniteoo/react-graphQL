@@ -21,6 +21,13 @@
       "type": "DOG",
       "name": "GINGER",
       "createdAt": "999875544"
+    },
+    {
+      "id": "UISLB-uMM43zTGTyYpIz-",
+      "createdAt": 1618720289102,
+      "name": "Garfield",
+      "type": "CAT",
+      "user": "jBWMVGjm50l6LGwepDoty"
     }
   ]
 }
